@@ -28,4 +28,4 @@ http://192.168.1.10:8096
 
 - [部署 ScrapeFun Server](https://github.com/HaoweiLi97/ScrapeFun)
 - [Windows Server](https://github.com/HaoweiLi97/scrapefun-server-windows)
-- [产品网站](https://mightly.store/)
+- [产品网站](https://scrapefun.com/)
