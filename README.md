@@ -4,7 +4,7 @@
 
 [产品主页](https://github.com/HaoweiLi97/ScrapeFun) · [稳定版下载](https://github.com/HaoweiLi97/scrapefun-client-windows/releases/latest) · [全部发行](https://github.com/HaoweiLi97/scrapefun-client-windows/releases) · [在线文档](https://scrapefun.com/#/docs)
 
-> 文档更新：2026-09-28。下列版本和资产为核对当日的稳定版；后续以对应 Release 为准。
+> 文档更新：2026-10-29。下列版本和资产为核对当日的稳定版；后续以对应 Release 为准。
 
 Windows 桌面客户端，连接已有 ScrapeFun Server，浏览影视资源、使用原生播放器并阅读漫画。Client 与 Server 分别安装和更新。
 
@@ -12,14 +12,14 @@ Windows 桌面客户端，连接已有 ScrapeFun Server，浏览影视资源、�
 
 | 项目 | 当前稳定版 |
 | --- | --- |
-| 版本 | [0.0.5](https://github.com/HaoweiLi97/scrapefun-client-windows/releases/tag/v0.0.5) |
-| 架构 | 当前安装程序同时支持 x64 / ARM64 |
-| 手动安装 | `scrapefun-client-electron-windows-0.0.5-stable-x64-setup.exe` |
+| 版本 | [0.1.3](https://github.com/HaoweiLi97/scrapefun-client-windows/releases/tag/v0.1.3) |
+| 架构 | x64 |
+| 手动安装 | `scrapefun-client-electron-windows-0.1.3-stable-x64-setup.exe` |
 | 更新资产 | `latest.yml`、安装包 `.blockmap` |
 
-从[稳定版下载页](https://github.com/HaoweiLi97/scrapefun-client-windows/releases/latest)下载 setup。0.0.5 的安装包虽带 `x64` 文件名，发行说明明确支持 x64 与 ARM64；其他版本应重新核对，不应沿用这一判断。
+从[稳定版下载页](https://github.com/HaoweiLi97/scrapefun-client-windows/releases/latest)下载 x64 setup 安装包，另有无需安装的便携 EXE。`-update-setup.exe` 和 `.blockmap` 文件供自动更新使用。本次仅支持 x64。Microsoft Store 继续作为独立[安装渠道](https://apps.microsoft.com/detail/9NM3HPS675QH)，切换渠道前请备份设置。
 
-0.0.5 未进行 Windows 代码签名，首次安装可能显示未知发布者提示。下载后核对官方来源和 Release；不要把该提示当作包已获得发布者签名。
+0.1.3 未进行 Windows 代码签名，首次安装可能显示未知发布者提示。下载后核对官方来源和 Release；不要把该提示当作包已获得发布者签名。
 
 ## 安装与连接
 
@@ -27,7 +27,7 @@ Windows 桌面客户端，连接已有 ScrapeFun Server，浏览影视资源、�
 2. 输入 Server 地址，例如 `http://192.168.1.10:8096`。
 3. 使用 Server 账号登录。
 
-0.0.5 可在连接页面“发现服务器”。该功能需要局域网中的 Server 支持发现；没有结果时仍可手动填写地址。发现结果不会代替正常连接检查和登录。
+0.1.3 可在连接页面“发现服务器”。该功能需要局域网中的 Server 支持发现；没有结果时仍可手动填写地址。发现结果不会代替正常连接检查和登录。
 
 ## 更新与配置
 
