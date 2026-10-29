@@ -4,7 +4,7 @@
 
 [Product overview](https://github.com/HaoweiLi97/ScrapeFun/blob/main/README.en.md) · [Stable downloads](https://github.com/HaoweiLi97/scrapefun-client-windows/releases/latest) · [All releases](https://github.com/HaoweiLi97/scrapefun-client-windows/releases) · [Online documentation](https://scrapefun.com/?lang=en#/docs)
 
-> Updated: 2026-09-28. Versions and assets below are the stable releases checked on this date. Follow the corresponding Release for later changes.
+> Updated: 2026-10-29. Versions and assets below are the stable releases checked on this date. Follow the corresponding Release for later changes.
 
 Windows desktop client for connecting to an existing ScrapeFun Server, browsing movie and TV resources, using the native player, and reading comics. Client and Server are installed and updated separately.
 
@@ -12,14 +12,14 @@ Windows desktop client for connecting to an existing ScrapeFun Server, browsing 
 
 | Item | Current stable release |
 | --- | --- |
-| Version | [0.0.5](https://github.com/HaoweiLi97/scrapefun-client-windows/releases/tag/v0.0.5) |
-| Architecture | This installer supports both x64 / ARM64 |
-| Manual installation | `scrapefun-client-electron-windows-0.0.5-stable-x64-setup.exe` |
+| Version | [0.1.3](https://github.com/HaoweiLi97/scrapefun-client-windows/releases/tag/v0.1.3) |
+| Architecture | x64 |
+| Manual installation | `scrapefun-client-electron-windows-0.1.3-stable-x64-setup.exe` |
 | Update assets | `latest.yml`, installer `.blockmap` |
 
-Download setup from the [stable download page](https://github.com/HaoweiLi97/scrapefun-client-windows/releases/latest). Although the 0.0.5 filename includes `x64`, its release notes explicitly state x64 and ARM64 support. Recheck other versions rather than assuming the same support.
+Download the x64 setup from the [stable download page](https://github.com/HaoweiLi97/scrapefun-client-windows/releases/latest). The separate portable EXE runs without installation. The `-update-setup.exe` and `.blockmap` files support automatic updates. This release supports x64 only. Microsoft Store remains a separate [installation channel](https://apps.microsoft.com/detail/9NM3HPS675QH); back up preferences before switching channels.
 
-Version 0.0.5 is not Windows code signed and may show an unknown-publisher message on first installation. Verify the official source and release after downloading. That message does not mean the package has a publisher signature.
+Version 0.1.3 is not Windows code signed and may show an unknown-publisher message on first installation. Verify the official source and release after downloading. That message does not mean the package has a publisher signature.
 
 ## Installation and connection
 
@@ -27,7 +27,7 @@ Version 0.0.5 is not Windows code signed and may show an unknown-publisher messa
 2. Enter the Server address, such as `http://192.168.1.10:8096`.
 3. Sign in with your Server account.
 
-Version 0.0.5 can discover servers from the connection page. Discovery requires a Server on the LAN that supports it. If no result appears, enter the address manually. Discovery does not replace connection checks or login.
+Version 0.1.3 can discover servers from the connection page. Discovery requires a Server on the LAN that supports it. If no result appears, enter the address manually. Discovery does not replace connection checks or login.
 
 ## Updates and configuration
 
