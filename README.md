@@ -8,7 +8,7 @@
 
 Windows 桌面客户端，连接已有 ScrapeFun Server，浏览影视资源、使用原生播放器并阅读漫画。Client 与 Server 分别安装和更新。
 
-GitHub 下载提供 EXE 安装包；Microsoft Store 分发 APPX/MSIX 包。0.5.0 已通过商店 CLI 提交，审核完成后由商店推送。请沿用原安装渠道，迁移前先备份数据。
+GitHub 下载提供 EXE 安装包；Microsoft Store 分发 APPX/MSIX 包。0.5.0 已通过商店 CLI 发布并上架。请沿用原安装渠道，迁移前先备份数据。
 
 ## 下载与系统环境
 

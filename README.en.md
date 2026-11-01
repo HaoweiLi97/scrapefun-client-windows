@@ -8,7 +8,7 @@
 
 Windows desktop client for connecting to an existing ScrapeFun Server, browsing movie and TV resources, using the native player, and reading comics. Client and Server are installed and updated separately.
 
-GitHub downloads are EXE installers. Microsoft Store distributes APPX/MSIX packages; version 0.5.0 has been submitted through the Store CLI and becomes available after certification. Keep your existing installation channel and back up data before migration.
+GitHub downloads are EXE installers. Microsoft Store distributes APPX/MSIX packages; version 0.5.0 has been published through the Store CLI and is available from Microsoft Store. Keep your existing installation channel and back up data before migration.
 
 ## Downloads and environment
 
