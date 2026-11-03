@@ -1,14 +1,15 @@
-# ScrapeFun Client for Windows
+<div align="center">
+  <img src="./docs/images/client-icon.png" alt="ScrapeFun Client" width="80" />
+  <h1>ScrapeFun Client for Windows</h1>
+  <p><a href="./README.md">简体中文</a> · <strong>English</strong></p>
+  <p><a href="https://scrapefun.com/?lang=en">Website</a> · <a href="https://github.com/HaoweiLi97/scrapefun-client-windows/releases/latest">Download</a> · <a href="https://github.com/HaoweiLi97/scrapefun-client-windows/releases">All releases</a> · <a href="https://scrapefun.com/?lang=en#/docs">Documentation</a></p>
+</div>
 
-[简体中文](./README.md) · **English**
-
-[Product overview](https://github.com/HaoweiLi97/ScrapeFun/blob/main/README.en.md) · [Stable downloads](https://github.com/HaoweiLi97/scrapefun-client-windows/releases/latest) · [All releases](https://github.com/HaoweiLi97/scrapefun-client-windows/releases) · [Online documentation](https://scrapefun.com/?lang=en#/docs)
-
-> Updated: 2026-11-01. Versions and assets below are the stable releases checked on this date. Follow the corresponding Release for later changes.
+> Updated: 2026-11-03. Versions and assets below are the stable releases checked on this date. Follow the corresponding Release for later changes.
 
 Windows desktop client for connecting to an existing ScrapeFun Server, browsing movie and TV resources, using the native player, and reading comics. Client and Server are installed and updated separately.
 
-GitHub downloads are EXE installers. Microsoft Store distributes APPX/MSIX packages; version 0.5.0 has been published through the Store CLI and is available from Microsoft Store. Keep your existing installation channel and back up data before migration.
+GitHub downloads are EXE installers. Microsoft Store distributes APPX/MSIX packages; version 0.5.0 is available from Microsoft Store. Keep your existing installation channel and back up data before migration.
 
 ## Downloads and environment
 
@@ -35,9 +36,12 @@ Version 0.5.0 can discover servers from the connection page. Discovery requires 
 
 Use the client's update mechanism or run newer setup over the existing installation. The same user's server connection settings are normally retained. Do not delete the client's user configuration directory. Stop playback during the update and reconnect to Server afterward.
 
-## Troubleshooting
+<details>
+<summary>Troubleshooting</summary>
 
 For connection problems, first check Server status, address, port, and firewall. For playback issues, include Windows version, CPU architecture, Server and Client versions, media codecs, and logs with sensitive details removed.
+
+</details>
 
 ## Support and licensing
 

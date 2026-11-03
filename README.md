@@ -1,14 +1,15 @@
-# ScrapeFun Client for Windows
+<div align="center">
+  <img src="./docs/images/client-icon.png" alt="ScrapeFun Client" width="80" />
+  <h1>ScrapeFun Client for Windows</h1>
+  <p><strong>简体中文</strong> · <a href="./README.en.md">English</a></p>
+  <p><a href="https://scrapefun.com/">官网</a> · <a href="https://github.com/HaoweiLi97/scrapefun-client-windows/releases/latest">下载安装</a> · <a href="https://github.com/HaoweiLi97/scrapefun-client-windows/releases">全部发行</a> · <a href="https://scrapefun.com/#/docs">使用文档</a></p>
+</div>
 
-**简体中文** · [English](./README.en.md)
-
-[产品主页](https://github.com/HaoweiLi97/ScrapeFun) · [稳定版下载](https://github.com/HaoweiLi97/scrapefun-client-windows/releases/latest) · [全部发行](https://github.com/HaoweiLi97/scrapefun-client-windows/releases) · [在线文档](https://scrapefun.com/#/docs)
-
-> 文档更新：2026-11-01。下列版本和资产为核对当日的稳定版；后续以对应 Release 为准。
+> 文档更新：2026-11-03。下列版本和资产为核对当日的稳定版；后续以对应 Release 为准。
 
 Windows 桌面客户端，连接已有 ScrapeFun Server，浏览影视资源、使用原生播放器并阅读漫画。Client 与 Server 分别安装和更新。
 
-GitHub 下载提供 EXE 安装包；Microsoft Store 分发 APPX/MSIX 包。0.5.0 已通过商店 CLI 发布并上架。请沿用原安装渠道，迁移前先备份数据。
+GitHub 下载提供 EXE 安装包；Microsoft Store 分发 APPX/MSIX 包。0.5.0 已上架 Microsoft Store，可从商店安装。请沿用原安装渠道，迁移前先备份数据。
 
 ## 下载与系统环境
 
@@ -35,9 +36,12 @@ GitHub 下载提供 EXE 安装包；Microsoft Store 分发 APPX/MSIX 包。0.5.0
 
 可使用客户端更新机制，或运行新版 setup 覆盖安装。同一用户下通常保留服务器连接配置；不要主动删除客户端用户配置目录。更新过程中退出播放，完成后重新连接 Server。
 
-## 故障排查
+<details>
+<summary>故障排查</summary>
 
 连接问题先检查 Server 状态、地址、端口及防火墙。播放问题请提供 Windows 版本、CPU 架构、Server 与 Client 版本、媒体编码和脱敏日志。
+
+</details>
 
 ## 支持与授权
 
