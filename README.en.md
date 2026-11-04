@@ -15,14 +15,14 @@ GitHub downloads are EXE installers. Microsoft Store distributes APPX/MSIX packa
 
 | Item | Current stable release |
 | --- | --- |
-| Version | [0.5.2](https://github.com/HaoweiLi97/scrapefun-client-windows/releases/tag/v0.5.2) |
+| Version | [0.5.3](https://github.com/HaoweiLi97/scrapefun-client-windows/releases/tag/v0.5.3) |
 | Architecture | x64 |
-| Manual installation | `scrapefun-client-electron-windows-0.5.2-stable-x64-setup.exe` |
+| Manual installation | `scrapefun-client-electron-windows-0.5.3-stable-x64-setup.exe` |
 | Update assets | `latest.yml`, installer `.blockmap` |
 
 Download the x64 setup from the [stable download page](https://github.com/HaoweiLi97/scrapefun-client-windows/releases/latest). The `-update-setup.exe` and `.blockmap` files support automatic updates. This release supports x64 only. Microsoft Store remains a separate [installation channel](https://apps.microsoft.com/detail/9NM3HPS675QH); back up preferences before switching channels.
 
-Version 0.5.2 is not Windows code signed and may show an unknown-publisher message on first installation. Verify the official source and release after downloading. That message does not mean the package has a publisher signature.
+Version 0.5.3 is not Windows code signed and may show an unknown-publisher message on first installation. Verify the official source and release after downloading. That message does not mean the package has a publisher signature.
 
 ## Installation and connection
 

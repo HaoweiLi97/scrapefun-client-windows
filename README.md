@@ -15,14 +15,14 @@ GitHub 下载提供 EXE 安装包；Microsoft Store 分发 APPX/MSIX 包。0.5.0
 
 | 项目 | 当前稳定版 |
 | --- | --- |
-| 版本 | [0.5.2](https://github.com/HaoweiLi97/scrapefun-client-windows/releases/tag/v0.5.2) |
+| 版本 | [0.5.3](https://github.com/HaoweiLi97/scrapefun-client-windows/releases/tag/v0.5.3) |
 | 架构 | x64 |
-| 手动安装 | `scrapefun-client-electron-windows-0.5.2-stable-x64-setup.exe` |
+| 手动安装 | `scrapefun-client-electron-windows-0.5.3-stable-x64-setup.exe` |
 | 更新资产 | `latest.yml`、安装包 `.blockmap` |
 
 从[稳定版下载页](https://github.com/HaoweiLi97/scrapefun-client-windows/releases/latest)下载 x64 setup 安装包。`-update-setup.exe` 和 `.blockmap` 文件供自动更新使用。本次仅支持 x64。Microsoft Store 继续作为独立[安装渠道](https://apps.microsoft.com/detail/9NM3HPS675QH)，切换渠道前请备份设置。
 
-0.5.2 未进行 Windows 代码签名，首次安装可能显示未知发布者提示。下载后核对官方来源和 Release；不要把该提示当作包已获得发布者签名。
+0.5.3 未进行 Windows 代码签名，首次安装可能显示未知发布者提示。下载后核对官方来源和 Release；不要把该提示当作包已获得发布者签名。
 
 ## 安装与连接
 
